@@ -7,6 +7,8 @@ Create a file to put your tests in and import the testy module
 ```
 // in mytests.js
 import { testy, describe, test, expect } from 'http://192.81.214.140:8080/testy.js' 
+
+// if the server is down or you just prefer to setup locally, download testy.js from this repo and import from a local path
 ```
 Add testy and your tests file to your html
 ```
@@ -15,7 +17,8 @@ Add testy and your tests file to your html
 <script type="module" src="mytests.js"></script>
 ```
 
-Provides some of the standard testing functions available in other frameworks:
+## Usage
+testy provides some of the standard testing functions available in other frameworks:
 ```
 // mytests.js
 import { testy, describe, test, expect } from 'http://192.81.214.140:8080/testy.js'
